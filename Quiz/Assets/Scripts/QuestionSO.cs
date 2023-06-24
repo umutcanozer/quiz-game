@@ -20,11 +20,11 @@ public class QuestionSO : ScriptableObject
 
     public int GetCorrectAnswerIndex()
     {
-        return correctAnswer; //get the four answers text from array by using index
+        return correctAnswer; //get the correct answer index
     }
 
     public string GetAnswer(int index)
     {
-        return answers[index]; //get the correct answer index
+        return answers[index]; //get the four answers text from array by using index
     }
 }
